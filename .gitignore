@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Variáveis de ambiente (segredos)
+.env
+.env.local
+
+# Cache e bytecode do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco de dados local (SQLite)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Arquivos de IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Distribuição/build do Python
+build/
+dist/
+*.egg-info/
+
+# Docker (opcional, se usar arquivos locais de override)
+docker-compose.override.yml
